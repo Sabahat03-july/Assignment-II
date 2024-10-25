@@ -9,12 +9,18 @@ export default function Home() {
       <nav className="p-4">
         <div className="container mx-auto flex justify-between items-center ">
           {/* Brand Name */}
-          <nav className="p-4">
+          <nav className="p-6">
+  <div className="container mx-auto flex justify-between items-center">
+  <nav className="p-4">
   <div className="container mx-auto flex justify-between items-center">
     {/* Brand Name */}
-    <div className="text-white text-[24px] font-bold mb-4"> {/* Added margin here */}
+    <div className="text-white text-[24px] font-bold mt-4"> {/* Margin top added */}
       <span>BrandName</span>
     </div>
+
+    {/* Other elements... */}
+  </div>
+</nav>
 
     {/* Other elements... */}
   </div>
